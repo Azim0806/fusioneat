@@ -606,7 +606,7 @@ body.nav-active { overflow: hidden; }
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 40px;
+  padding-block: 20px;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -693,7 +693,10 @@ body.nav-active { overflow: hidden; }
   margin-inline: auto;
   margin-block-end: 60px;
 }
-
+.logo img{
+  width:100px ;
+  margin: 0;
+}
 .navbar-list {
   border-block-end: 1px solid var(--white-alpha-20);
   margin-block-end: 100px;
